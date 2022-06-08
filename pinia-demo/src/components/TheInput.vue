@@ -20,6 +20,9 @@
       <div class="reset">
         <button @click="store.$reset()">Reset Activity</button>
       </div>
+
+      <!-- getters -->
+      <p>Number of Activities = {{store.getAllActivities}}</p>
     </div>
   </div>
 </template>

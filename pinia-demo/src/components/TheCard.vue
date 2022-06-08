@@ -24,6 +24,7 @@ const store = useActivityStore();
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
+  margin: 7px auto;
+  border: 1px solid black;
 }
 </style>

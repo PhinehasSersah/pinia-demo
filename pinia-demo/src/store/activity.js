@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 
+// Using other stores' actions
 import { useMultipleStore } from "./multiple";
 
 const useActivityStore = defineStore("activity", {
@@ -22,7 +23,7 @@ const useActivityStore = defineStore("activity", {
     },
   },
   getters: {
-    getAllActivities: (state) => state.activities,
+    getAllActivities: (state) => state.userActivities.length,
   },
 });
 
